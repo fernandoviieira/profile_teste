@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(0, 0%, 59%); 
+}
+
+.container {
+    margin: auto; 
+    height: 750px;
+    overflow: hidden;
+    background: url('images/bg-pattern-top.svg')no-repeat;
+    background-position: -350px -500px;
+}
+
+.caixa-lateral {
+    position: relative;
+    display: block;
+    width: 850px;
+    height: 900px;
+    left: 850px;
+    top: -200px;
+    background: url('images/bg-pattern-bottom.svg')no-repeat;
+}
+
+
+.caixa-principal {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    transform: translateY(50px);
+    border-radius: 20px;
+}
+
+.caixa1 {
+    width: auto;
+    height: 200px;
+    background-image: url('images/bg-pattern-card.svg');
+    border-radius: 20px 20px 0 0;
+}
+
+.foto {
+   text-align: center;
+}
+.foto img {
+    border-radius: 50px;
+    transform: scale(1.8);
+}
+
+.caixa-principal p {
+    text-align: center;
+    transform: translateY(50px);
+    line-height: 40px;
+    width: 200px;
+    position: relative;
+    left: 150px;
+}
+
+.negrito {
+    color: #000000;
+    font-weight: 900;
+}
+
+.secundario {
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    line-height: 35px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+p:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.foto img:hover {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
